@@ -5,7 +5,7 @@ const message = document.getElementById("message");
 // This is NOT secure authentication because credentials are visible in JavaScript.
 // Use a real authentication backend (e.g. Supabase Auth) for a production system.
 const DEMO_USERNAME = "admin";
-const DEMO_PASSWORD = "admin123";
+const DEMO_PASSWORD = "admin";
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
